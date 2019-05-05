@@ -4,6 +4,7 @@ pub mod ledger;
 pub mod pairwise;
 pub mod pool;
 pub mod wallet;
+pub mod interaction;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct IndyConfig {
